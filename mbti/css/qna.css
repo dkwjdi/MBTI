@@ -1,3 +1,25 @@
 #qna {
   display: none;
 }
+.qBox {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 80%;
+}
+
+.answerList {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: 19;
+}
+
+.answerList:hover,
+.answerList:focus {
+  background-color: wheat;
+  color: red;
+}
